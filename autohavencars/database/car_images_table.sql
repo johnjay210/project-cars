@@ -1,5 +1,5 @@
 -- Car Images Table for Multiple Photos
--- Run this SQL in phpMyAdmin or MySQL command line
+
 
 USE autohavencars;
 
