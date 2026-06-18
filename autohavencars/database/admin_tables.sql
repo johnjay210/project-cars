@@ -1,5 +1,4 @@
 -- Admin Dashboard Tables
--- Run this SQL in phpMyAdmin or MySQL command line
 
 USE autohavencars;
 
@@ -41,11 +40,6 @@ CREATE TABLE IF NOT EXISTS sales (
     INDEX idx_sale_date (sale_date),
     INDEX idx_status (status)
 );
-
--- For MySQL versions that don't support IF NOT EXISTS:
--- ALTER TABLE users ADD COLUMN role ENUM('user', 'admin') DEFAULT 'user' AFTER password;
--- UPDATE users SET role = 'admin' WHERE email = 'admin@autohavencars.com' LIMIT 1;
-
 
 
 
